@@ -12,3 +12,10 @@
     dest: "{{ hostvars[inventory_hostname].working_directory }}{{ userdata_location }}"
     owner: pi
     group: pi
+
+- name: Tweak overscan
+  copy:
+    src: ../../configuration/config.txt
+    dest: /boot/config.txt
+    owner: root
+    group: root
