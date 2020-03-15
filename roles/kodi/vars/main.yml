@@ -1,0 +1,5 @@
+---
+addons_file_path: ../../gamelists/retropie/retropie.tar.gz
+userdata_file_path: ../../gamelists/retropie/retropie.tar.gz
+addons_location: .kodi/addons
+userdata_location: .kodi/userdata

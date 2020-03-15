@@ -1,0 +1,7 @@
+---
+roms_file_path: ../../roms/genesis/genesis.tar.gz
+roms_location: RetroPie/roms/megadrive
+images_file_path: ../../downloaded_images/genesis/genesis.tar.gz
+images_location: .emulationstation/downloaded_images/megadrive
+gamelist_file_path: ../../gamelists/genesis/genesis.tar.gz
+gamelist_location: .emulationstation/gamelists/megadrive

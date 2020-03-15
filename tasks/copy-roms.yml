@@ -1,0 +1,7 @@
+---
+- name: Copy the roms
+  unarchive:
+    src: "{{ roms_file_path }}"
+    dest: "{{ hostvars[inventory_hostname].working_directory }}{{ roms_location }}"
+    owner: pi
+    group: pi

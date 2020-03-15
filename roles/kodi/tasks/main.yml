@@ -1,0 +1,14 @@
+---
+- name: Copy kodi addons
+  unarchive:
+    src: "{{ addons_file_path }}"
+    dest: "{{ hostvars[inventory_hostname].working_directory }}{{ addons_location }}"
+    owner: pi
+    group: pi
+
+- name: Copy kodi userdata
+  unarchive:
+    src: "{{ userdata_file_path }}"
+    dest: "{{ hostvars[inventory_hostname].working_directory }}{{ userdata_location }}"
+    owner: pi
+    group: pi

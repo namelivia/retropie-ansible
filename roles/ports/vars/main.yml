@@ -1,0 +1,7 @@
+---
+roms_file_path: ../../roms/ports/ports.tar.gz
+roms_location: RetroPie/roms/ports
+images_file_path: ../../downloaded_images/ports/ports.tar.gz
+images_location: .emulationstation/downloaded_images/ports
+gamelist_file_path: ../../gamelists/ports/ports.tar.gz
+gamelist_location: .emulationstation/gamelists/ports

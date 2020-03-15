@@ -1,0 +1,7 @@
+---
+roms_file_path: ../../roms/arcade/arcade.tar.gz
+roms_location: RetroPie/roms/arcade
+images_file_path: ../../downloaded_images/arcade/arcade.tar.gz
+images_location: .emulationstation/downloaded_images/arcade
+gamelist_file_path: ../../gamelists/arcade/arcade.tar.gz
+gamelist_location: .emulationstation/gamelists/arcade

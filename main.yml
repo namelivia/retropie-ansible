@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: true
+  roles:
+      - emulation-station
+      - ports
+      - genesis-emulator
+      - snes-emulator
+      - n64-emulator
+      - arcade-emulator
+      - kodi
+      - wiimote

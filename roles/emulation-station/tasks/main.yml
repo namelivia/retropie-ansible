@@ -1,0 +1,17 @@
+---
+- name: Copy gamepad configuration
+  copy:
+    src: "{{ gamepad_config_path }}"
+    dest: "{{ hostvars[inventory_hostname].working_directory }}{{retroarch_autoconfig_path}}"
+    owner: pi
+    group: pi
+  
+- name: Copy emulation station configuration
+  copy:
+    src: "{{ emulationstation_config_path }}"
+    dest: "{{ hostvars[inventory_hostname].working_directory }}{{emulationstation_path}}"
+    owner: pi
+    group: pi
+  
+- name: Copy gamelists
+  import_tasks: copy-gamelist.yml

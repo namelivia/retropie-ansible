@@ -1,0 +1,3 @@
+---
+- name: Copy port roms
+  import_tasks: copy-roms.yml

@@ -1,0 +1,7 @@
+---
+roms_file_path: ../../roms/snes/snes.tar.gz
+roms_location: RetroPie/roms/snes
+images_file_path: ../../downloaded_images/snes/snes.tar.gz
+images_location: .emulationstation/downloaded_images/snes
+gamelist_file_path: ../../gamelists/snes/snes.tar.gz
+gamelist_location: .emulationstation/gamelists/snes

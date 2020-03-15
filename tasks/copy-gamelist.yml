@@ -1,0 +1,7 @@
+---
+- name: Copy the gamelist
+  unarchive:
+    src: "{{ gamelist_file_path }}"
+    dest: "{{ hostvars[inventory_hostname].working_directory }}{{ gamelist_location }}"
+    owner: pi
+    group: pi

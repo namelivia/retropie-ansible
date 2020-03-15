@@ -1,0 +1,21 @@
+---
+- name: Set wiimote attachment on startup
+  copy:
+    src: ../../wiimote/10-retropie.sh
+    dest: /etc/profile.d/10-retropie.sh
+    owner: root
+    group: root
+
+- name: Copy wiimote configuration file
+  copy:
+    src: ../../wiimote/mywminput
+    dest: "{{ hostvars[inventory_hostname].working_directory }}mywminput"
+    owner: pi
+    group: pi
+
+- name: Copy wiimote attach executable
+  copy:
+    src: ../../wiimote/attachwii.sh
+    dest: "{{ hostvars[inventory_hostname].working_directory }}attachwii.sh"
+    owner: pi
+    group: pi

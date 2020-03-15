@@ -1,0 +1,7 @@
+---
+roms_file_path: ../../roms/n64/n64.tar.gz
+roms_location: RetroPie/roms/n64
+images_file_path: ../../downloaded_images/n64/n64.tar.gz
+images_location: .emulationstation/downloaded_images/n64
+gamelist_file_path: ../../gamelists/n64/n64.tar.gz
+gamelist_location: .emulationstation/gamelists/n64

@@ -1,0 +1,9 @@
+---
+- name: Copy snes roms
+  import_tasks: copy-roms.yml
+
+- name: Copy rom images
+  import_tasks: copy-downloaded-images.yml
+
+- name: Copy gamelists
+  import_tasks: copy-gamelist.yml
