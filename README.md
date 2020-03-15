@@ -18,7 +18,7 @@ to the Pi. You'll be prompted with the password for your `pi` user, needed to co
 
 Now populate the ansible hosts file by executing `./set-hosts` to create the hosts file needed by ansible.
 
-Finally execute ./run-ansible to provision the pi.
+Finally execute `./run-ansible` to provision the Pi.
 
 ### Disclaimer
 
