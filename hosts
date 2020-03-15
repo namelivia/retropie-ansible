@@ -1,5 +1,0 @@
-[hosts]
-raspberry ansible_host=192.168.1.128 ansible_user=pi working_directory=/home/pi/
-
-[hosts:vars]
-ansible_python_interpreter=/usr/bin/python3
