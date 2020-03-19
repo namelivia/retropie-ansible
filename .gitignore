@@ -16,6 +16,9 @@ roms/snes/*
 roms/arcade/*
 !roms/arcade/.gitkeep
 
+roms/scummvm/*
+!roms/scummvm/.gitkeep
+
 downloaded_images/genesis/*
 !downloaded_images/genesis/.gitkeep
 

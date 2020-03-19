@@ -1,0 +1,3 @@
+---
+- name: Copy scummvm roms
+  import_tasks: copy-roms.yml
