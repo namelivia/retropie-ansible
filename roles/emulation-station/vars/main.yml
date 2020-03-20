@@ -1,7 +1,7 @@
 ---
 gamepad_config_path: ../../gamepads/
 retroarch_autoconfig_path: .config/retroarch/autoconfig
-emulationstation_config_path: ../../configuration/
+emulationstation_config_path: ../../configuration/emulation-station/
 emulationstation_path: .emulationstation
 gamelist_file_path: ../../gamelists/retropie/retropie.tar.gz
 gamelist_location: .emulationstation/gamelists/retropie

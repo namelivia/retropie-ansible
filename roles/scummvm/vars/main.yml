@@ -1,3 +1,5 @@
 ---
 roms_file_path: ../../roms/scummvm/scummvm.tar.gz
 roms_location: RetroPie/roms/scummvm
+scummvm_config_path: ../../configuration/scummvm/
+scummvm_path: .config/scummvm/

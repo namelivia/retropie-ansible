@@ -1,6 +1,6 @@
 # IR Pointer
-Plugin.ir_ptr.X = ~ABS_X
-Plugin.ir_ptr.Y = ~ABS_Y
+Plugin.ir_ptr.X = ABS_X
+Plugin.ir_ptr.Y = ABS_Y
 
 # WiiMote
 Wiimote.A= BTN_A
@@ -16,3 +16,7 @@ Wiimote.2= BTN_Y
 # Nunchuk
 Nunchuk.C = BTN_C
 Nunchuk.Z = BTN_Z
+
+#Turn on some leds
+Plugin.led.Led1 = 1
+Plugin.led.Led4 = 4

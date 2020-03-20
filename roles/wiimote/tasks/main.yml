@@ -16,6 +16,7 @@
 - name: Copy wiimote attach executable
   copy:
     src: ../../wiimote/attachwii.sh
-    dest: "{{ hostvars[inventory_hostname].working_directory }}attachwii.sh"
+    dest: "{{ hostvars[inventory_hostname].working_directory }}/bin/attachwii.sh"
     owner: pi
     group: pi
+    mode: 0764

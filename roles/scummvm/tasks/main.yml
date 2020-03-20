@@ -1,3 +1,10 @@
 ---
 - name: Copy scummvm roms
   import_tasks: copy-roms.yml
+
+- name: Copy scummvm config
+  copy:
+    src: "{{ scummvm_config_path }}"
+    dest: "{{ hostvars[inventory_hostname].working_directory }}{{scummvm_path}}"
+    owner: pi
+    group: pi

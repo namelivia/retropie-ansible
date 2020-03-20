@@ -15,7 +15,7 @@
 
 - name: Tweak overscan
   copy:
-    src: ../../configuration/config.txt
+    src: ../../configuration/emulation-station/config.txt
     dest: /boot/config.txt
     owner: root
     group: root
