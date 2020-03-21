@@ -1,7 +1,3 @@
-# IR Pointer
-Plugin.ir_ptr.X = ABS_X
-Plugin.ir_ptr.Y = ABS_Y
-
 # WiiMote
 Wiimote.A= BTN_A
 Wiimote.B= BTN_B
