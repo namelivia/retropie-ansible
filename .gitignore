@@ -1,5 +1,5 @@
 hosts
-raspberry_ip
+raspberry_pi_ip
 
 keys/*
 !keys/.gitkeep

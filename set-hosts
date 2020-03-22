@@ -1,9 +1,9 @@
 #!/bin/bash
 
-RASPBERRY_IP=$(cat raspberry_ip)
+RASPBERRY_PI_IP=$(cat raspberry_pi_IP)
 cat >hosts <<EOF
 [hosts]
-raspberry ansible_host=${RASPBERRY_IP} ansible_user=pi working_directory=/home/pi/
+raspberry ansible_host=${RASPBERRY_PI_IP} ansible_user=pi working_directory=/home/pi/
 
 [hosts:vars]
 ansible_python_interpreter=/usr/bin/python3

@@ -1,4 +1,4 @@
 #!/bin/bash
-RASPBERRY_IP=$(cat raspberry_ip)
+RASPBERRY_PI_IP=$(cat raspberry_pi_ip)
 ssh-keygen -t rsa -b 4096 -C "ansible@raspberry" -f ./keys/ansible -q -N ""
-ssh-copy-id -i keys/ansible pi@${RASPBERRY_IP}
+ssh-copy-id -i keys/ansible pi@${RASPBERRY_PI_IP}

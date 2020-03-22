@@ -10,7 +10,7 @@ This is a set of scripts to run [Ansible](https://ansible.com) and recreate my c
 
 ## Getting started
 
-For getting started, execute `echo your-raspberry-pi-ip-address > raspberry_ip` replacing `your-raspberry-pi-address` with
+For getting started, execute `echo your-raspberry-pi-ip-address > raspberry_pi_ip` replacing `your-raspberry-pi-address` with
 the actual value for your Pi.
 
 Next execute `./generate-key` to create a key pair that will be stored in `keys` and copy it
