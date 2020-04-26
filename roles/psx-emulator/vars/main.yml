@@ -1,0 +1,7 @@
+---
+roms_file_path: ../../roms/psx/psx.tar.gz
+roms_location: RetroPie/roms/psx
+images_file_path: ../../downloaded_images/psx/psx.tar.gz
+images_location: .emulationstation/downloaded_images/psx
+gamelist_file_path: ../../gamelists/psx/psx.tar.gz
+gamelist_location: .emulationstation/gamelists/psx

@@ -7,7 +7,9 @@
       #- genesis-emulator
       #- snes-emulator
       #- n64-emulator
-      - arcade-emulator
+      #- arcade-emulator
       #- kodi
       # - wiimote
       #- scummvm
+    - psx-emulator
+      #- cec

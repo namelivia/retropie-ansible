@@ -1,0 +1,21 @@
+---
+- name: Install cec-utils
+  apt:
+    name: cec-utils
+    state: present
+
+- name: Copy a bash to turn on the tv
+  copy:
+    src: ../../cec/turn_on.sh
+    dest: "{{ hostvars[inventory_hostname].working_directory }}/bin/turn_on_tv.sh"
+    owner: pi
+    group: pi
+    mode: 0764
+
+- name: Copy a bash to off the tv
+  copy:
+    src: ../../cec/turn_off.sh
+    dest: "{{ hostvars[inventory_hostname].working_directory }}/bin/turn_off_tv.sh"
+    owner: pi
+    group: pi
+    mode: 0764
