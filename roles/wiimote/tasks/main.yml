@@ -20,3 +20,10 @@
     owner: pi
     group: pi
     mode: 0764
+
+- name: Override wiimote pointer config
+  copy:
+    src: ../../wiimote/ir_ptr
+    dest: "/etc/cwiid/wminput/ir_ptr"
+    owner: pi
+    group: pi
